@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.title-wrapper{
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portfolio-title{
+  text-align: center;
+}
+
+.title-name{
+  text-align: center;
+}
+
+
+
+/*ここから作品*/
+.picture{
+  width: 350px;
+}
+
+.item-wrapper{
+  margin: 100px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+}
+
+.bana-title{
+  text-align: center;
+}
+
+.images{
+  text-align: center;
+}
+
+.mini{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.comp{
+   display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 15px;
+  }
